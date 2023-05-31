@@ -12,7 +12,7 @@
 # hashtags
 # search_query = "#love OR #relationships OR #romance OR #couplegoals OR #soulmate OR #truelove OR " \
 #                "#relationshipgoals OR #happycouple OR #lovequotes OR #lovestory OR #friendship OR" \
-#                " #bestfriends OR #bffs OR #friendsforever OR #friendshipgoals OR #friendslikefamily OR" \
+#                # " #bestfriends OR #bffs OR #friendsforever OR #friendshipgoals OR #friendslikefamily OR" \
 #                " #truefriends OR #friendshipquotes OR #friendshipday OR #squadgoals OR #family OR " \
 #                "#familytime OR #familylove OR #familygoals OR #familyfirst OR #familyisforever OR" \
 #                " #familymatters OR #familybonds OR #familymemories OR #familyquotes"

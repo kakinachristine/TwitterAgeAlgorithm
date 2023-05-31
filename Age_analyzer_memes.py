@@ -67,7 +67,7 @@ for tweet in tweets:
 columns = ["date", "id", "content", "username", "likeCount", "retweetCount", "location", "hashtag", "source"]
 
 # Write young tweets to a new CSV file
-with open("lgbtq_hashtags.csv", "w", encoding="utf-8", newline="") as file:
+with open("Code_Trials/lgbtq_hashtags.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, fieldnames=columns)
     writer.writeheader()
     writer.writerows(young_tweets)
