@@ -54,8 +54,8 @@
 
 
 #################### couple goals in africa and global
-# Check for mentions of influential individuals
-# influencer_keywords = ["@celebrity", "@musician", "@athlete", "Beyoncé", "Jay-Z", "Prince Harry", "Meghan Markle", "David Beckham", "Victoria Beckham", "Kim Kardashian", "Kanye West", "John Legend", "Chrissy Teigen", "Barack Obama", "Michelle Obama", "Wizkid", "Tiwa Savage", "Diamond Platnumz", "Tanasha Donna", "Justin Bieber", "Hailey Baldwin", "Selena Gomez", "The Weeknd", "Ariana Grande", "Dalton Gomez", "Shawn Mendes", "Camila Cabello", "Zayn Malik", "Gigi Hadid", "Emma Chamberlain", "David Dobrik", "James Charles", "Liza Koshy", "Brent Rivera", "Lele Pons", "Davido", "Chioma"]
+# # Check for mentions of influential individuals
+# influencer_keywords = ["Beyoncé", "Jay-Z", "Prince Harry", "Meghan Markle", "David Beckham", "Victoria Beckham", "Kim Kardashian", "Kanye West", "John Legend", "Chrissy Teigen", "Barack Obama", "Michelle Obama", "Wizkid", "Tiwa Savage", "Diamond Platnumz", "Tanasha Donna", "Justin Bieber", "Hailey Baldwin", "Selena Gomez", "The Weeknd", "Ariana Grande", "Dalton Gomez", "Shawn Mendes", "Camila Cabello", "Zayn Malik", "Gigi Hadid", "Emma Chamberlain", "David Dobrik", "James Charles", "Liza Koshy", "Brent Rivera", "Lele Pons", "Davido", "Chioma"]
 # if any(keyword in tweet_content for keyword in influencer_keywords):
 #     return True
 
