@@ -100,10 +100,10 @@ with open("young_tweets.csv", "r", encoding="utf-8") as file:
         tweets.append(row)
 
 # Filter and store young tweets
-young_tweets = []
+young_tweet = []
 for tweet in tweets:
     if is_young_person(tweet):
-        young_tweets.append(tweet)
+        young_tweet.append(tweet)
 
 # Define the column names for the new CSV file
 columns = ["date", "id", "content", "username", "likeCount", "retweetCount", "location", "hashtag", "source"]
@@ -112,4 +112,4 @@ columns = ["date", "id", "content", "username", "likeCount", "retweetCount", "lo
 with open("religion2.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, fieldnames=columns)
     writer.writeheader()
-    writer.writerows(young_tweets)
+    writer.writerows(young_tweet)
