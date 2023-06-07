@@ -16,8 +16,8 @@ Api = TwitterAPI(consumer_key, consumer_secret, access_token, access_token_secre
 AUTH = tp.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
 client = tp.API(AUTH)
 
-keyword = "#religion"
-num_tweets = 1000  # Number of tweets to scrape
+keyword = "#love"
+num_tweets = 10000  # Number of tweets to scrape
 
 tweets = tp.Cursor(api.search_tweets, q=keyword, lang="en", tweet_mode="extended").items(num_tweets)
 
@@ -63,6 +63,6 @@ for tweet in tweets:
 
 df = pd.DataFrame(tweet_data)
 df.head()
-df.to_csv("#religion.csv", index=False)
+df.to_csv("#love1.csv", index=False)
 
 print("CSV file created successfully.")

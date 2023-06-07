@@ -94,7 +94,7 @@ def is_young_person(tweet):
 
 # Read tweets from the CSV file
 tweets = []
-with open("young_tweets.csv", "r", encoding="utf-8") as file:
+with open("#religion.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
     for row in reader:
         tweets.append(row)
@@ -109,7 +109,7 @@ for tweet in tweets:
 columns = ["date", "id", "content", "username", "likeCount", "retweetCount", "location", "hashtag", "source"]
 
 # Write young tweets to a new CSV file
-with open("religion2.csv", "w", encoding="utf-8", newline="") as file:
+with open("#religion.csv", "w", encoding="utf-8", newline="") as file:
     writer = csv.DictWriter(file, fieldnames=columns)
     writer.writeheader()
     writer.writerows(young_tweet)
