@@ -68,11 +68,9 @@
 # profile_description = tweet.get("description", "").lower()
 # if any(keyword in profile_description for keyword in profile_keywords):
 #     return True
+import pandas as pd
 
-
-
-
-
-
+love = pd.read_csv("C:/Users/user/PycharmProjects/TwitterAgeAlgorithm/Code_Trials/Love1.csv")
+print(love)
 
 
