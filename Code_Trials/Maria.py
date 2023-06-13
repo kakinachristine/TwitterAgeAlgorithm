@@ -17,10 +17,10 @@ AUTH = tp.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_
 client = tp.API(AUTH)
 
 
-keyword = "family"
-num_tweets = 9000  # Number of tweets to scrape
+keyword = "#romance"
+num_tweets = 10000  # Number of tweets to scrape
 
-tweets = tp.Cursor(api.search_tweets, q=keyword, lang="en", geocode = "1.2921,36.8219,700km", tweet_mode="extended").items(num_tweets)
+tweets = tp.Cursor(api.search_tweets, q=keyword, lang="en", tweet_mode="extended").items(num_tweets)
 
 tweet_data = []
 for tweet in tweets:
@@ -64,7 +64,7 @@ for tweet in tweets:
 
 df = pd.DataFrame(tweet_data)
 df.head()
-df.to_csv("family1.csv", index=False)
+df.to_csv("love2.csv", index=False)
 
 print("CSV file created successfully.")
 
