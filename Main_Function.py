@@ -34,7 +34,7 @@ def is_young_person(tweet):
     if any(keyword in tweet_content for keyword in expressive_keywords):
         return True
 
-    social_keywords = ["climate change", "equality", "intersectionality", "systemic racism", "lgbtq+ rights",
+    social_keywords = ["climate change", "equality", "intersectionality", "systemic racism",
                        "feminism", "black lives matter", "climate justice", "indigenous rights", "body positivity",
                        "mental health awareness", "youth activism", "immigration rights", "human rights", "inclusivity",
                        "anti-discrimination", "activism", "social equality", "gender equality", "environmental justice",
